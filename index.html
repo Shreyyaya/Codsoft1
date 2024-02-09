@@ -1,164 +1,231 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TRAVEL AGENCY</title>
-    <link rel="stylesheet" href="style.css" />
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  </head>
-  <body>
-    <!-- nav -->
-    <nav>
-      <h1 class="logo">Logo</h1>
-      <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Places</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/6dcd264d12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+   <div class="container">
+       
+       <nav>
+           <img src="name.jpg" class="name">
+           <ul>
+               <li><a href="#header">HOME</a></li>
+               <li><a href="#about">ABOUT</a></li>
+               <li><a href="#services">SERVICES</a></li>
+               <li><a href="#contact">CONTACT</a></li>
+               <li><a href="#portfolio">PORTFOLIO</a></li>
+           </ul>
+       </nav>
+       <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <H1>Hi, I am <span>Shreya</span><br> from india</H1>
+       </div>
+   </div>  
+</div> 
 
-    <!-- header -->
-    <section class="header">
-      <h1 class="main-headings">BOOK WITH US</h1>
-      <h1 class="primary-heading">And Enjoy your Journey</h1>
-      <button class="main-btn">Book Now</button>
-    </section>
+<!-------------------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="logo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>jhfeugerbuky3cuiryuiy4uyirgb4ugbudiyue
+                   wtrwc784yubi87tx2bctuytgb3uyiydfikawyt
+                   rgb23uiyhchni4dtgfwyuhyurcuvyq2wgtyc78
+                   eyetr6uwf3gtueyg4u76yerfgbueryihy3utkj
+                   hwegrujegtuhjrgthjb4rgthrfjhrhceunr4gn
+                   jn4njururjvn wkurcfnuk4ikjhnyxtunqgwik</p>
 
-    
-    <section id="our-story">
-      <div class="img-container">
-        <div class="img"></div>
-      </div>
-      <div class="section-content">
-        <div class="title-style">
-          <span class="line"></span>
-          <h1 class="title">ABOUT US</h1>
+                   <div class="tab-classes">
+                    <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                    <p class="tab-links" onclick="opentab('EXPERIENCE')">EDUCATION</p>
+                    <p class="tab-links" onclick="opentab('EDUCATION')">PROJECTS</p>
+                   </div>
+
+                   <div class="tab-contents active-tab" id="SKILLS">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing interfaces</li>
+                            <li><span>Web Dev</span><br>Web app development</li>
+                            <li><span>App Dev</span><br>Building apps</li>
+                        </ul>
+                   </div>
+
+                   <div class="tab-contents" id="EXPERIENCE">
+                    <ul>
+                        <li><span>2019</span><br>SSC passout</li>
+                        <li><span>2021</span><br>Hsc passout</li>
+                        <li><span>2021-2025</span><br>BE</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="EDUCATION">
+                    <ul>
+                     <li><span>HTML,CSS,JS</span><br>CALCULATOR</li>
+                     <li><span>HTML,CSS</span><br>Landing page</li>
+                     <li><span>HTML,CSS,python</span><br>DDoS attack detection</li>
+                    </ul>
+                   </div>
+            </div>
         </div>
-        <p>
-          Our team at travel experts is passionate about exploring the world
-          and heiping our dlients to do the same. with years of exparience in
-          the travel industry. we have developed strong relationships with
-          suppliers and vendors around the world, allowing us to olfer
-          exclusive deals and insider access to some of the world's most
-          incredible destinations.
-          At our travel agency, we believe that travel is more than just
-          visiting new places - it's about experiencing new cultures, meeting
-          new people, and creating memories that last a lifetime.
-        </p>
-        <button>Learn More</button>
-      </div>
-    </section>
+    </div>
+</div>
 
-   
-    <section class="cc-container">
-      <div class="content-section">
-        <div class="title-style">
-          <h1 class="title-two">
-            Perfect Place <br>
-            To Book Your <br>
-            Tour
-          </h1>
+<!---------------------------------------------------------------------------------->
+<div id="SERVICES">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <H2>Web design</H2>
+                <p>efyferegrghxgucejbrugeurgurhekjdnhjsfgv
+                   djiwuqryugjjshjbjknjzxbhjbscsfisagdytwd</p>
+                <a href="#">learn more</a>   
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <H2>UI/UX design</H2>
+                <p>efyferegrghxgucejbrugeurgurhekjdnhjsfgv
+                   djiwuqryugjjshjbjknjzxbhjbscsfisagdytwd</p>
+                <a href="#">learn more</a>   
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <H2>APP design</H2>
+                <p>efyferegrghxgucejbrugeurgurhekjdnhjsfgv
+                   djiwuqryugjjshjbjknjzxbhjbscsfisagdytwd</p>
+                <a href="#">learn more</a>   
+            </div>
         </div>
-        <p>Embark on a seamless journey of discovery with our hassle-free tour booking services.
-          Whether you're craving the vibrant energy of bustling cities, the tranquility of scenic
-          landscapes, or the rich cultural tapestry of historical sites, our extensive range of 
-          curated tours has something for every traveler. With just a few clicks, you can secure
-          your spot on an adventure of a lifetime. Our user-friendly platform ensures a smooth booking
-          process, allowing you to customize your itinerary, select preferred dates, and even choose
-          from a variety of accommodation options. Our team of experienced professionals is dedicated 
-          to ensuring your travel dreams become a reality, providing personalized assistance every step of the way.
-          Unleash the explorer in you and let our tour booking services turn your aspirations into unforgettable experiences.
-          Book now and set forth on a journey filled with memories that will last a lifetime.
-        </p>
-        <button style="margin-top: 20px">Learn More</button>
-      </div>
+    </div>
+</div>
 
-      <section class="img-container">
-        <img src="22.jpg" class="img-2" alt="" />
-      </section>
+<!------------------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg.png">
+                <div class="layer">
+                    <b><H2><br><i>CALCULATOR</i><br></H2>
+                    <p>A calculator is a device or tool used for
+                     performing mathematical calculations.The primary 
+                     purpose of a calculator is to quickly and accurately
+                     perform arithmetic operations such as addition, 
+                     subtraction, multiplication, and division.</p></b>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
 
-    </section>
+            <div class="work">
+                <img src="work2.jpg.png">
+                <div class="layer">
+                    <b><H2><br><i>LANDING PAGE</i><br></H2>
+                    <p>A landing page is a web page specifically designed
+                    to serve as the entry point for visitors to a website 
+                    or a particular section of a website. It is typically 
+                    created with a specific goal in mind, such as encouraging 
+                    users to take a specific action, such as making a purchase,
+                    signing up for a newsletter, filling out a form, or downloading a resource.</p></b>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
 
-    <section class="places">
-      <h1 class="title title-three">TOP 3 PLACES</h1>
-
-      <section class="cards">
-        <div class="card">
-          <div class="card-img img-one"></div>
-          <div class="card-title">
-            <h1>GUJRAT</h1>
-          </div>
-          <div class="items">
-            <p>KEVADIA</p>
-            
-            <p>The Statue of Unity is the world's tallest statue, with a height of 182 metres
-              located near Kevadia in the state of Gujarat, India. It depicts Indian statesman
-              and independence activist Vallabhbhai Patel (1875-1950), who was the first deputy
-              prime minister and home minister of independent India </p>
-          </div>
-          <button>Learn More</button>
+            <div class="work">
+                <img src="work3.jpg.png">
+                <div class="layer">
+                    <b><H2><br><i>NETFLIX CLONE</i><br></H2>
+                    <p>Creating a Netflix clone involves building a streaming platform
+                    that provides similar features and functionalities as Netflix. However,
+                    it's important to note that creating a streaming service like Netflix
+                    involves complex technical, legal, and licensing considerations.</p></b>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="card">
-          <div class="card-img img-two"></div>
-          <div class="card-title">
-            <h1>DELHI</h1>
-          </div>
-          <div class="items">
-            <p>AGRA</p>
-            <p>Construction of the mausoleum was essentially completed in 1643, but work continued
-              on other phases of the project for another 10 years. The Taj Mahal complex is believed
-              to have been completed in its entirety in 1653 at a cost estimated at the time to be
-              around ₹32 million, which in 2023 would be approximately ₹35 billion</p>
-          </div>
-          <button>Learn More</button>
-        </div>
-        <div class="card">
-          <div class="card-img img-three"></div>
-          <div class="card-title">
-            <h1>TAMIL NADU</h1>
-          </div>
-          <div class="items">
-            <p>KANYAKUMARI</p>
-            <p>Kanniyakumari is a popular tourist destination and pilgrimage centre in India.
-              Notable tourist spots include its unique sunrise and sunset points, the 41-metre
-              (133 ft) Thiruvalluvar Statue, and Vivekananda Rock Memorial off the coast</p>
-          </div>
-          <button>Learn More</button>
-        </div>
-      </section>
-    </section>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
 
-    <!-- footer -->
-    <hr />
-     <footer>
-      <div class="container2">
-        <h1 class="heading-info">Email  <span><i class='bx bxs-envelope bx-tada' ></i></span></h1>
-        <p>
-          abc@gmail.com
-        </p>
-      </div>
-      <div class="container2">
-        <h1 class="heading-info">Contact <span>Us</span></h1>
-        <p>
-          <i class='bx bxs-map bx-tada' style='color:#ffae00' ></i>  Pune,411049<br>
-          <i class='bx bxs-phone bx-tada' style='color:#ffae00' ></i>  1010101010
-        </p>
-        <div class="contact-icons">
-          <a href="#"><i class='bx bxl-instagram'></i></a>
-          <a href="#"><i class='bx bxl-facebook'></i></a>
-      </div>
-      </div>
-      <div class="container2">
-        <h1 class="heading-info">Quick <span>Link</span></h1>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-at"></i>shreyasandhanshive@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9881720448</p>
+
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                    <a href="cv.docx" download class="btn btn2">Download CV</a>
+
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
         
-          <li><a href="#Home">Home<br></a></li>
-          <li><a href="#About">About<br></a></li>
-          <li><a href="#product">Products<br></a></li>
-          <li><a href="#offer">Offers</a></li>
-        
-      </div>
-    </footer>
-  </body>
+        }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzxPaVxhQCJthrh28QcKNIGwhwCdBsYntP8HIvAw2VEah-eedLdjVVOdRPQ7y70Xb9c/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+                msg.innerHTML = "message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+        }, 5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
 </html>
